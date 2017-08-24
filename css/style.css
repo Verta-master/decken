@@ -726,11 +726,14 @@ textarea {
   /*  font-size: 0;*/
   display: inline-block;
 }
-.section-wrap > * {
+.section-pad > * {
   padding: 25px 0;
 }
 .section-wrap.section-wrap_gray {
   background-color: #f7f7f7;
+}
+.section-header {
+  padding: 0 !important;
 }
 .block {
   text-align: center;
@@ -1437,6 +1440,10 @@ textarea {
   width: 100%;
   padding: 0;
   background-color: #201f1d;
+}
+.menu__empty {
+  height: 43px;
+  display: none;
 }
 .menu__list {
   display: -ms-flexbox;
@@ -3832,7 +3839,7 @@ span.customSelect .customSelectInner {
   width: 108px;
 }
 #marker {
-  background-image: url('/img/elements/map-drag.png');
+  background-image: url('../img/map-drag.png');
   width: 36px;
   height: 42px;
   position: absolute;
@@ -4207,6 +4214,7 @@ span.customSelect .customSelectInner {
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 15px;
+  max-width: 600px;
 }
 .swiper-warranty span {
   background-color: #eebe00;
@@ -4290,6 +4298,7 @@ span.customSelect .customSelectInner {
   padding: 5px 8px;
   border: 1px dotted #201f1d;
   border-radius: 5px;
+  max-width: 350px;
 }
 .price {
   padding-top: 30px;
