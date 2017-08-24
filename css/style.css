@@ -2272,6 +2272,8 @@ textarea {
 .feedback__content {
   padding: 100px 0px;
   text-align: center;
+  width: 966px;
+  margin: 0 auto;
 }
 .feedback__button-cont {
   margin-top: 30px;
@@ -3797,9 +3799,6 @@ span.customSelect .customSelectInner {
   border-radius: 3px;
   vertical-align: middle;
 }
-.map__content {
-  padding-top: 20px;
-}
 .map__empty {
   height: 350px;
 }
@@ -3882,7 +3881,7 @@ span.customSelect .customSelectInner {
   background: url(../img/calculate.png) repeat-x;
 }
 .calc__content {
-  padding: 40px 0px;
+  padding: 40px 0 0 0;
   text-align: center;
 }
 .calc__form {
