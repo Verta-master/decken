@@ -26,7 +26,7 @@ function init () {
 	var placemark = new ymaps.Placemark([55.814157, 37.784546], {
 
 	}, {
-		iconImageHref: '../img/map-marker.png',
+		iconImageHref: 'img/map-marker.png',
 		iconImageSize: [250, 81],
 		iconImageOffset: [-35, -80],
 		balloonCloseButton: false,
