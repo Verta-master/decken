@@ -144,6 +144,7 @@ textarea {
   width: 100%;
   text-align: left;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -394,21 +395,14 @@ textarea {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  -webkit-transition: all 400ms ease-in 100ms;
-  /* Chrome 1-25, Safari 3.2+ */
-  -moz-transition: all 400ms ease-in 100ms;
-  /* Firefox 4-15 */
-  -o-transition: all 400ms ease-in 100ms;
-  /* Opera 10.50–12.00 */
   transition: all 400ms ease-in 100ms;
-  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }
 .comments__popup .comments__smiles-item.active:before {
   content: '';
   position: absolute;
   width: 16px;
   height: 16px;
-  background: url(/img/temp/active.png) center no-repeat;
+  background: url(../img/active.png) center no-repeat;
   top: 5px;
   left: 5px;
 }
@@ -1722,6 +1716,8 @@ textarea {
   text-align: left;
 }
 .feedback__form-cont input[type="text"],
+.feedback__form-cont input[type="tel"],
+.feedback__form-cont input[type="email"],
 .feedback__form-cont input[type="file"] {
   border-radius: 35px;
   box-shadow: inset 0 1px 1px #bababa;
@@ -1877,14 +1873,7 @@ textarea {
 .comments__text.comments__text_selected {
   display: block;
   opacity: 1;
-  -webkit-transition: all 400ms ease-in 100ms;
-  /* Chrome 1-25, Safari 3.2+ */
-  -moz-transition: all 400ms ease-in 100ms;
-  /* Firefox 4-15 */
-  -o-transition: all 400ms ease-in 100ms;
-  /* Opera 10.50–12.00 */
   transition: all 400ms ease-in 100ms;
-  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }
 .comments__add-cont {
   display: inline-block;
@@ -1930,17 +1919,7 @@ textarea {
 }
 .comments__button-single_more {
   background-color: #dad700;
-  /* for ie9 */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#dad700), to(#d7ad00));
-  /* Chrome, Safari 4+ */
-  background-image: -webkit-linear-gradient(top, #dad700, #d7ad00);
-  /* Chrome 10-25, iOS 5+, Safari 5.1+ */
-  background-image: -moz-linear-gradient(top, #dad700, #d7ad00);
-  /* Firefox 3.6-15 */
-  background-image: -o-linear-gradient(top, #dad700, #d7ad00);
-  /* Opera 11.10-12.00 */
   background-image: linear-gradient(to bottom, #dad700, #d7ad00);
-  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
   border-bottom: 3px #977e00 solid;
   border-radius: 3px;
   vertical-align: middle;
@@ -1950,12 +1929,12 @@ textarea {
   box-shadow: 0 0 0 0 rgba(218, 215, 0, 0.7), inset 0 1px 0 #abcbe9;
   border-radius: 100%;
   cursor: pointer;
-  -webkit-animation: pulse 1s infinite cubic-bezier(0.6, 0, 0, 1);
+  animation: pulse 1s infinite cubic-bezier(0.6, 0, 0, 1);
 }
 .pulse-button:hover {
-  -webkit-animation: none;
+  animation: none;
 }
-@-webkit-keyframes pulse {
+@keyframes pulse {
   to {
     box-shadow: 0 0 0 15px rgba(215, 153, 173, 0), inset 0 1px 0 #abcbe9;
   }
@@ -1965,11 +1944,11 @@ textarea {
   height: 290px;
 }
 .footer__logo {
-  background: url(/img/logo.png) center no-repeat;
   width: 340px;
   display: inline-block;
-  height: 70%;
+  height: auto;
   vertical-align: top;
+  padding-top: 60px;
 }
 .footer__menu {
   width: 300px;
