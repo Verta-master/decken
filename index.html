@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
 	<title>"Decken" - натяжные потолки</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -1950,8 +1951,10 @@
   <script src="js/map.js"></script>
   <script src="js/main.js"></script>
   <script src="js/swiper.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
   <script src="//api-maps.yandex.ru/2.0/?lang=ru-RU&load=package.full" type="text/javascript"></script>
 
+<!-- Slider -->
   <script>        
     var swiper = new Swiper('.swiper-container', {
       pagination: '.swiper-pagination',
@@ -1960,6 +1963,20 @@
         return '<span class="' + className + '">' + (index + 1) + '</span>';
       }
     });
+  </script>
+  
+<!-- Masked input -->
+  <script>
+    (function( $ ){
+      var $body;
+      $(document).ready(function(){
+        $body = $('body');
+        $body
+          .find('.calc__phone').each(function(){
+              $(this).mask("+7 ( 999 ) 999 - 99 - 99", {autoсlear: false});
+          });
+      });
+    })( jQuery );
   </script>
 </body>
 </html>

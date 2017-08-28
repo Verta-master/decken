@@ -1,33 +1,3 @@
-@font-face {
-  font-weight: 300;
-  font-family: "Open Sans";
-  font-style: normal;
-  src: url("../fonts/OpenSans-Light.ttf");
-}
-@font-face {
-  font-weight: 400;
-  font-family: "Open Sans";
-  font-style: normal;
-  src: url("../fonts/OpenSans-Regular.ttf");
-}
-@font-face {
-  font-weight: 700;
-  font-family: "Open Sans";
-  font-style: normal;
-  src: url("../fonts/OpenSans-Bold.ttf");
-}
-@font-face {
-  font-weight: 300;
-  font-family: "Open Sans Condenced";
-  font-style: normal;
-  src: url("../fonts/OpenSansCondensed-Light.ttf");
-}
-@font-face {
-  font-weight: 700;
-  font-family: "Open Sans Condenced";
-  font-style: normal;
-  src: url("../fonts/OpenSansCondensed-Bold.ttf");
-}
 /* Start:/bitrix/templates/corp_services_red/styles.css?14535648831214*/
 /* Text */
 img {
@@ -802,7 +772,7 @@ textarea {
   display: block;
 }
 .switcher .switcher__item {
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   display: inline-block;
   height: 100%;
   text-transform: uppercase;
@@ -858,7 +828,7 @@ textarea {
 }
 .popup .popup__header .popup__title {
   display: inline-block;
-  font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 24px;
   font-weight: bold;
   height: 60px;
@@ -879,7 +849,7 @@ textarea {
 }
 .map__popup .popup__header .popup__title {
   display: inline-block;
-  font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 24px;
   font-weight: bold;
   height: 60px;
@@ -902,7 +872,7 @@ textarea {
 }
 .catalog__popup .popup__header .popup__title {
   display: inline-block;
-  font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 24px;
   font-weight: bold;
   height: 60px;
@@ -925,7 +895,7 @@ textarea {
 }
 .news__popup .popup__header .popup__title {
   display: inline-block;
-  font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 24px;
   font-weight: bold;
   height: 60px;
@@ -1100,7 +1070,7 @@ textarea {
   padding: 10px 30px;
 }
 .order__form-info {
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 13px;
   text-align: center;
   color: #000;
@@ -1167,7 +1137,7 @@ textarea {
 }
 .text__popup .popup__header .popup__title {
   display: inline-block;
-  font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 24px;
   font-weight: bold;
   height: 60px;
@@ -1233,7 +1203,7 @@ textarea {
   color: #999999;
   font-size: 19px;
   text-transform: uppercase;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   display: block;
 }
 .header__phone {
@@ -1242,7 +1212,7 @@ textarea {
 .header__phone_num {
   display: block;
   color: #000;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 30px !important;
   font-weight: 300;
   line-height: 27px;
@@ -1267,7 +1237,7 @@ textarea {
 .header__phone_link {
   display: block;
   margin-top: 10px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: #e02223;
   font-size: 16px;
   line-height: 22px;
@@ -1279,7 +1249,7 @@ textarea {
   font-size: 20px;
   font-weight: 700;
   color: black;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   line-height: 29px;
   font-style: normal;
 }
@@ -1293,7 +1263,7 @@ textarea {
   font-size: 29px;
   font-weight: 700;
   color: #ba0f12;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   line-height: 29px;
   text-decoration: none;
 }
@@ -1523,7 +1493,7 @@ textarea {
 .intro__text {
   padding-top: 10px;
   font-size: 14px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   color: #5a5a5a;
 }
 .intro__menu {
@@ -1629,7 +1599,7 @@ textarea {
   height: 63px;
   display: inline-block;
   border: 1px #dddddd solid;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .news__date:after {
   content: '';
@@ -1673,7 +1643,7 @@ textarea {
   font-size: 16px;
   font-weight: 700;
   color: #000;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .news__info .news__title_sub {
   color: #777777;
@@ -1836,7 +1806,7 @@ textarea {
 .products__item-desc {
   width: 380px;
   text-align: justify;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: #5a5a5a;
@@ -2691,7 +2661,7 @@ textarea {
   text-align: center;
 }
 .ceiling__sidebar-header {
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -3438,11 +3408,11 @@ textarea {
 .ceiling__sidebar-select {
   width: 100%!important;
   box-sizing: border-box;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
 }
 .ceiling__sidebar-select option {
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
 }
 span.customSelect {
@@ -3451,7 +3421,7 @@ span.customSelect {
   background-repeat: no-repeat;
   background-image: url(../img/darr.png);
   color: #000;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
   padding-left: 5px;
   box-sizing: border-box;
@@ -3788,23 +3758,26 @@ span.customSelect .customSelectInner {
 }
 .map__string {
   padding-top: 20px;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
 }
 .map__marker {
   display: inline-block;
   margin: 0 10px;
   vertical-align: middle;
 }
-.form__bottom,
 .form__top {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
   -ms-flex-align: start;
       align-items: flex-start;
 }
 .form__bottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
 }
@@ -3855,7 +3828,7 @@ span.customSelect .customSelectInner {
   border: 1px solid #b7b7b7;
   border-radius: 2px;
   background-color: #ffffff;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 50px;
@@ -3863,7 +3836,7 @@ span.customSelect .customSelectInner {
 }
 .calc__result {
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 50px;
   text-align: left;
   padding-top: 15px;
 }
@@ -3875,7 +3848,7 @@ span.customSelect .customSelectInner {
   vertical-align: top;
 }
 .calc__result-header {
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
   font-weight: 700;
   border-bottom: 1px #dddddd dotted;
@@ -3887,7 +3860,7 @@ span.customSelect .customSelectInner {
   font-size: 36px;
   font-weight: 700;
   color: #e3353d;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   display: inline-block;
   vertical-align: top;
 }
@@ -3951,6 +3924,7 @@ span.customSelect .customSelectInner {
   text-align: left;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 20px;
 }
 .icons {
   margin-top: 20px;
