@@ -1722,6 +1722,7 @@ textarea {
 }
 .products__right-header {
   font-size: 17px;
+  font-weight: 700;
   text-transform: uppercase;
   color: #d03237;
   height: 30px;
@@ -4301,9 +4302,8 @@ span.customSelect .customSelectInner {
 .price__btn {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 36px;
   font-weight: 700;
-  padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #e02223;
